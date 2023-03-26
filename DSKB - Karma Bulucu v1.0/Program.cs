@@ -32,7 +32,7 @@ namespace DSKB___Karma_Bulucu
 
                     if (K != "0" && K != "1" && K != "2" && K != "3" && K != "4" && K != "5" && K != "5" && K != "6" && K != "7" && K != "8" && K != "9" && K != "a" && K != "b" && K != "c" && K != "d" && K != "e" && K != "f")
                     {
-                        MD5 = true;
+                        MD5 = false;
                         break;
                     }
                 }
@@ -64,7 +64,7 @@ namespace DSKB___Karma_Bulucu
 
                     if (K != "0" && K != "1" && K != "2" && K != "3" && K != "4" && K != "5" && K != "5" && K != "6" && K != "7" && K != "8" && K != "9" && K != "a" && K != "b" && K != "c" && K != "d" && K != "e" && K != "f")
                     {
-                        SHA1 = true;
+                        SHA1 = false;
                         break;
                     }
                 }
@@ -96,7 +96,7 @@ namespace DSKB___Karma_Bulucu
 
                     if (K != "0" && K != "1" && K != "2" && K != "3" && K != "4" && K != "5" && K != "5" && K != "6" && K != "7" && K != "8" && K != "9" && K != "a" && K != "b" && K != "c" && K != "d" && K != "e" && K != "f")
                     {
-                        SHA256 = true;
+                        SHA256 = false;
                         break;
                     }
                 }
@@ -128,7 +128,7 @@ namespace DSKB___Karma_Bulucu
 
                     if (K != "0" && K != "1" && K != "2" && K != "3" && K != "4" && K != "5" && K != "5" && K != "6" && K != "7" && K != "8" && K != "9" && K != "a" && K != "b" && K != "c" && K != "d" && K != "e" && K != "f")
                     {
-                        SHA384 = true;
+                        SHA384 = false;
                         break;
                     }
                 }
@@ -160,7 +160,7 @@ namespace DSKB___Karma_Bulucu
 
                     if (K != "0" && K != "1" && K != "2" && K != "3" && K != "4" && K != "5" && K != "5" && K != "6" && K != "7" && K != "8" && K != "9" && K != "a" && K != "b" && K != "c" && K != "d" && K != "e" && K != "f")
                     {
-                        SHA512 = true;
+                        SHA512 = false;
                         break;
                     }
                 }
